@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_15695962a1b255e757fe459fe17569ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_15695962a1b255e757fe459fe17569ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_15695962a1b255e757fe459fe17569ae = L.map(
+                "map_15695962a1b255e757fe459fe17569ae",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a788d6f3a89e46653d6e8e3a3ca2679e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a788d6f3a89e46653d6e8e3a3ca2679e.addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+            var marker_13591a16965fba707f14c4ed7f011780 = L.marker(
+                [-33.8688, 151.2093],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_7d05c4d17551157cfe5c009d8090d143 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b611a480c32e776bb55b6e87d8ddf75 = $(`<div id="html_5b611a480c32e776bb55b6e87d8ddf75" style="width: 100.0%; height: 100.0%;">Hint: This question might be related to Sydney! 🌍</div>`)[0];
+                popup_7d05c4d17551157cfe5c009d8090d143.setContent(html_5b611a480c32e776bb55b6e87d8ddf75);
+            
+        
+
+        marker_13591a16965fba707f14c4ed7f011780.bindPopup(popup_7d05c4d17551157cfe5c009d8090d143)
+        ;
+
+        
+    
+    
+            marker_13591a16965fba707f14c4ed7f011780.bindTooltip(
+                `<div>
+                     Hint for Q1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a637b547eda271023200380321831d10 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_eadcb319dff63116a6e235c0602f1c2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_520558629118f57fbd91c358da5862cd = $(`<div id="html_520558629118f57fbd91c358da5862cd" style="width: 100.0%; height: 100.0%;">Hint: This question might be related to Paris! 🌍</div>`)[0];
+                popup_eadcb319dff63116a6e235c0602f1c2a.setContent(html_520558629118f57fbd91c358da5862cd);
+            
+        
+
+        marker_a637b547eda271023200380321831d10.bindPopup(popup_eadcb319dff63116a6e235c0602f1c2a)
+        ;
+
+        
+    
+    
+            marker_a637b547eda271023200380321831d10.bindTooltip(
+                `<div>
+                     Hint for Q2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_977f6d15af1b30aa76bccdfe1b3d055a = L.marker(
+                [30.0444, 31.2357],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_5aa83eaacab9b142bb7d57d41932e380 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a79728c10ff9554ff19d3aa3eb3fe80d = $(`<div id="html_a79728c10ff9554ff19d3aa3eb3fe80d" style="width: 100.0%; height: 100.0%;">Hint: This question might be related to Cairo! 🌍</div>`)[0];
+                popup_5aa83eaacab9b142bb7d57d41932e380.setContent(html_a79728c10ff9554ff19d3aa3eb3fe80d);
+            
+        
+
+        marker_977f6d15af1b30aa76bccdfe1b3d055a.bindPopup(popup_5aa83eaacab9b142bb7d57d41932e380)
+        ;
+
+        
+    
+    
+            marker_977f6d15af1b30aa76bccdfe1b3d055a.bindTooltip(
+                `<div>
+                     Hint for Q3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3b4caed467820b07e3e2e22e6d948cda = L.marker(
+                [30.0444, 31.2357],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_2f8a4b1c6dfaf7d02f5d6f759cc8e6a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2066e2226c69583913fcdf17c751545b = $(`<div id="html_2066e2226c69583913fcdf17c751545b" style="width: 100.0%; height: 100.0%;">Hint: This question might be related to Cairo! 🌍</div>`)[0];
+                popup_2f8a4b1c6dfaf7d02f5d6f759cc8e6a9.setContent(html_2066e2226c69583913fcdf17c751545b);
+            
+        
+
+        marker_3b4caed467820b07e3e2e22e6d948cda.bindPopup(popup_2f8a4b1c6dfaf7d02f5d6f759cc8e6a9)
+        ;
+
+        
+    
+    
+            marker_3b4caed467820b07e3e2e22e6d948cda.bindTooltip(
+                `<div>
+                     Hint for Q4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c0c9413b3867e90278d5eab996897061 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_f5eb7d4d237f084db8d832e16af92c0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428ea19eda850f332afd4cd0f139e748 = $(`<div id="html_428ea19eda850f332afd4cd0f139e748" style="width: 100.0%; height: 100.0%;">Hint: This question might be related to Paris! 🌍</div>`)[0];
+                popup_f5eb7d4d237f084db8d832e16af92c0c.setContent(html_428ea19eda850f332afd4cd0f139e748);
+            
+        
+
+        marker_c0c9413b3867e90278d5eab996897061.bindPopup(popup_f5eb7d4d237f084db8d832e16af92c0c)
+        ;
+
+        
+    
+    
+            marker_c0c9413b3867e90278d5eab996897061.bindTooltip(
+                `<div>
+                     Hint for Q5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_456059c71b38073ea90151a82a47ce63 = L.marker(
+                [0.0, 0.0],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_c316be07cd94f765e58520ad3dfafa0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_922d4df16f5902a14704b8390a3052f7 = $(`<div id="html_922d4df16f5902a14704b8390a3052f7" style="width: 100.0%; height: 100.0%;">Rounds Played: 0, Score: 0 🎯</div>`)[0];
+                popup_c316be07cd94f765e58520ad3dfafa0c.setContent(html_922d4df16f5902a14704b8390a3052f7);
+            
+        
+
+        marker_456059c71b38073ea90151a82a47ce63.bindPopup(popup_c316be07cd94f765e58520ad3dfafa0c)
+        ;
+
+        
+    
+    
+            marker_456059c71b38073ea90151a82a47ce63.bindTooltip(
+                `<div>
+                     Your Score
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_156440a591a637fdc7fb8a8ae24ff722 = L.marker(
+                [10.0, 0.0],
+                {
+}
+            ).addTo(map_15695962a1b255e757fe459fe17569ae);
+        
+    
+        var popup_5b91e51f1f155319f1ee8c5e171f3810 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4f75b6cfd9d1a90afd7e17cf6887fad = $(`<div id="html_a4f75b6cfd9d1a90afd7e17cf6887fad" style="width: 100.0%; height: 100.0%;">Made by: Tek Narayan Yadav, Shivam Sharma, Abhishek Kumar Singh</div>`)[0];
+                popup_5b91e51f1f155319f1ee8c5e171f3810.setContent(html_a4f75b6cfd9d1a90afd7e17cf6887fad);
+            
+        
+
+        marker_156440a591a637fdc7fb8a8ae24ff722.bindPopup(popup_5b91e51f1f155319f1ee8c5e171f3810)
+        ;
+
+        
+    
+    
+            marker_156440a591a637fdc7fb8a8ae24ff722.bindTooltip(
+                `<div>
+                     Credits 🏆
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
