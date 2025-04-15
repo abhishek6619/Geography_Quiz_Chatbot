@@ -54,7 +54,7 @@ HTML_TEMPLATE = """
             </div>
         </div>
         <div class="credits">
-            <p>Made by: Tek Narayan Yadav, Shivam Sharma, Abhishek Kumar Singh</p>
+            <p>Made by: Abhishek Singh</p>
         </div>
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
