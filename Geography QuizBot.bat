@@ -1,3 +1,3 @@
 @echo off
-python "F:\Project\geography_quiz_bot\desktop_app.py"
+python "F:\Project\Geography_quiz_chatbot\desktop_app.py"
 pause
