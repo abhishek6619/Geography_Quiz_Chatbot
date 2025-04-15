@@ -95,7 +95,7 @@ def create_interactive_map(questions, cumulative_score, rounds_played):
     
     score_popup = f"Rounds Played: {rounds_played}, Score: {cumulative_score} 🎯"
     folium.Marker([0, 0], popup=score_popup, tooltip="Your Score").add_to(world_map)
-    credits_popup = "Made by: Tek Narayan Yadav, Shivam Sharma, Abhishek Kumar Singh"
+    credits_popup = "Made by: Abhishek Singh"
     folium.Marker([10, 0], popup=credits_popup, tooltip="Credits 🏆").add_to(world_map)
     
     map_path = "templates/map.html"
